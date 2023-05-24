@@ -1,43 +1,51 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="/styles.css">
 </head>
+
 <body>
   <div class="container">
-  <header>
-  <h1 id="title">freeCodeCamp Survey Form</h1>
-  <p id="description">Thank you for taking the time to help us improve the platform</p>
-  </header>
-  <form id="survey-form">
-    <div>
-      <label id="name-label">Name <input id="name" type="text" placeholder="Your name..." required/></label></div>
-      <div><label id="email-label">Email <input id="email" type="email" placeholder="Your email..." required/></label></div>
-      <div><label id="number-label">Age <input id="number" type="number" name="age" min="16" max="110" placeholder="Your age..." /></label></div>
+    <header>
+      <h1 id="title">freeCodeCamp Survey Form</h1>
+      <p id="description">Thank you for taking the time to help us improve the platform</p>
+    </header>
+    <form id="survey-form">
+      <div>
+        <label id="name-label">Name <input id="name" type="text" placeholder="Your name..." required /></label>
+      </div>
+      <div><label id="email-label">Email <input id="email" type="email" placeholder="Your email..." required /></label>
+      </div>
+      <div><label id="number-label">Age <input id="number" type="number" name="age" min="16" max="110"
+            placeholder="Your age..." /></label></div>
       <div><label>Nationality <select id="dropdown">
-        <option value="">Select an option</option>
-        <option value="1">Argentina</option>
-        <option value="2">Other</option>
-      </select></label></div>
-      <div><label>Do you have a job? 
-        <input type="radio" name="job" value="1"/> Employed
-        <input type="radio" name="job" value="2"/> Unemployed
-      </label></div>
+            <option value="">Select an option</option>
+            <option value="1">Argentina</option>
+            <option value="2">Other</option>
+          </select></label></div>
+      <div><label>Do you have a job?
+          <input type="radio" name="job" value="1" /> Employed
+          <input type="radio" name="job" value="2" /> Unemployed
+        </label></div>
       <div>
         <p>In which programming language you are working? </p>
-        <label><input name="language" type="checkbox" value="python"/> Python</label>
-       <label><input name="language" type="checkbox" value="javascript"/> Javascript</label>
-       <label><input name="language" type="checkbox" value="java"/> Java</label>
-       <label><input name="language" type="checkbox" value="other"/> Other</label>
-        </div>
-        <div>
-          <p>Any comments? </p>
-          <textarea id="comments" name="comment" placeholder="enter your comment..."></textarea>
-        </div>
-        <div>
-          <button type="submit" id="submit">Submit</button>
-          </div>
-    </form>
+        <label><input name="language" type="checkbox" value="python" /> Python</label>
+        <label><input name="language" type="checkbox" value="javascript" /> Javascript</label>
+        <label><input name="language" type="checkbox" value="java" /> Java</label>
+        <label><input name="language" type="checkbox" value="other" /> Other</label>
+      </div>
+      <div>
+        <p>Any comments? </p>
+        <textarea id="comments" name="comment" placeholder="enter your comment..."></textarea>
+      </div>
+      <div>
+        <button type="submit" id="submit">Submit</button>
+      </div>
   </div>
-</body>  
+
+  </form>
+  </div>
+</body>
+
 </html>
